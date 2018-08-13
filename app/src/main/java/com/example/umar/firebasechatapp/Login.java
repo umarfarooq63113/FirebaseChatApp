@@ -57,7 +57,7 @@ public class Login extends AppCompatActivity {
                 }
                 else{
                     String url = "https://fir-chatapp-d5284.firebaseio.com/users.json";
-                    //String url = "https://androidchatapp-76776.firebaseio.com/users.json";
+
                     final ProgressDialog pd = new ProgressDialog(Login.this);
                     pd.setMessage("Loading...");
                     pd.show();
